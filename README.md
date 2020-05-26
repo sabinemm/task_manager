@@ -1,3 +1,3 @@
 # task_manager
 
-Flask, MongoDB
+Python, Flask, MongoDB
