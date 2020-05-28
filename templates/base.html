@@ -27,9 +27,8 @@
 
         <ul class="sidenav" id="mobile-demo">
             <li><a href="{{url_for('get_tasks')}}">Home</a></li>
-            <li><a href="badges.html">Components</a></li>
             <li><a href="{{url_for('add_task')}}">New Task</a></li>
-            <li><a href="{{url_for('get_categories')}}">Manage Categories</a< /li>
+            <li><a href="{{url_for('get_categories')}}">Manage Categories</a></li>
         </ul>
 
     </header>
@@ -43,15 +42,13 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
-            $(document).ready(function () {
-                $('.collapsible').collapsible();
-                $('select').formSelect();
-                $('.datepicker').datepicker();
-                $('.sidenav').sidenav();
-                $('select').material_select();
-                $(".button-collapse").sideNav();
-            });
+            $('.collapsible').collapsible();
+            $('select').formSelect();
+            $('.datepicker').datepicker();
+            $('.sidenav').sidenav();
+        });
     </script>
+
 </body>
 
 </html>
